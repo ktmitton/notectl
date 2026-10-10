@@ -1,4 +1,17 @@
 export interface AttributeMap {
+	background?: string;
+	align?: string;
+	header?: number;
+	bold?: boolean;
+	italic?: boolean;
+	strike?: boolean;
+	underline?: boolean;
+	direction?: string;
+	font?: string;
+	color?: string;
+	code?: boolean;
+	link?: string;
+	size?: string;
 	[key: string]: unknown;
 }
 
